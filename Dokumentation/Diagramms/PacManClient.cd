@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PacManClient.Camera" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAIAAAIAgEACAIBAIAAAECAQAAAAEAAQIAAA=</HashCode>
+      <FileName>Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.ClientGameTime" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAEAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ClientGameTime.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManClient.PacManGame" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAwAAAAAAAAAAAAAAAAgAAIAAAEAAAAQ=</HashCode>
+      <FileName>PacManGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Program" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreen" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAEACAAARAAwAEEAIAAAAADAAAAAwAAgAGAgYIBAY=</HashCode>
+      <FileName>Components\GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.InputState" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAUAAAAAAAAAAAAAAQAAFYAAAAAEAIAAAEAAAAEA=</HashCode>
+      <FileName>Components\InputState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.ScreenManager" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAVEAgAgAgAwhAAAAAAEAAEAAAiBAERAAAggACCEY=</HashCode>
+      <FileName>Components\ScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.BackgroundScreen" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCEACAAAAAAwAAAAAAAAAAAAAAABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Components\GameScreens\BackgroundScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.ConfigMultiplayerScreen" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAgCAAAIAARQoAAAAAAAUgAAAAAAAAAAgABAgACAA=</HashCode>
+      <FileName>Components\GameScreens\GamePlayScreens\ConfigMultiplayerScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.GameplayScreen" Collapsed="true">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQDEEGAAgAAAgBFAAHAAIAgAAEAAAAAAAQAAAEAIAQ=</HashCode>
+      <FileName>Components\GameScreens\GamePlayScreens\GameplayScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.LoadingScreen" Collapsed="true">
+    <Position X="26.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAwACAAAAAAwABAAAQAAEAAAAAAAAAAEAAAAAAAAQ=</HashCode>
+      <FileName>Components\GameScreens\GamePlayScreens\LoadingScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.MultiplayerScreen" Collapsed="true">
+    <Position X="22" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAAAgwIAAAAAAAAAAAAAAQAAAAAAAAAAQAA=</HashCode>
+      <FileName>Components\GameScreens\GamePlayScreens\MultiplayerScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.MainMenuScreen" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAiAAAQAAAQAAAAAAAAAgACAABAAAAEAAAAAAAAQ=</HashCode>
+      <FileName>Components\GameScreens\MainMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.MenuScreen" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQQAACGAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Components\GameScreens\MenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.MessageBoxScreen" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQCAACAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAACQ=</HashCode>
+      <FileName>Components\GameScreens\MessageBoxScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.GraphicOptionsMenuScreen" Collapsed="true">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAkBAQAAAAADAAQAAAAAAAAgoAAAEAAACAQ=</HashCode>
+      <FileName>Components\GameScreens\OptionScreens\GraphicOptionsMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.PauseMenuScreen" Collapsed="true">
+    <Position X="17.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\GameScreens\PauseMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.PlayerIndexEventArgs" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Components\GameScreens\PlayerIndexEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.GamePlayScreens.GUI.GUIElement" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAggAAAAAAIAAAAAAAAgEAAAIAAAAAAAQ=</HashCode>
+      <FileName>Components\GameScreens\GamePlayScreens\GUI\GUIElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.GamePlayScreens.GUI.GUIString" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAgAAAQ=</HashCode>
+      <FileName>Components\GameScreens\GamePlayScreens\GUI\GUIString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.GamePlayScreens.SingleplayerScreen" Collapsed="true">
+    <Position X="24.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\GameScreens\GamePlayScreens\SingleplayerScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.GUIElements.MenuEntry" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAgAAAAJABAAAAAAAAIAAAACEQAAAI=</HashCode>
+      <FileName>Components\GameScreens\GUIElements\MenuEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.GUIElements.Slider" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAgAAAQAIIAAAAAAAAQAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Components\GameScreens\GUIElements\Slider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.OptionScreens.AudioOptionsMenuScreen" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\GameScreens\OptionScreens\AudioOptionsMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.OptionScreens.OptionsMenuScreen" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Components\GameScreens\OptionScreens\OptionsMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.GameScreens.Other.CreditsScreen" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Components\GameScreens\Other\CreditsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManClient.Components.Workers.ConnectServerLoader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAKAAAhAAgAAAAAAAAAAAAACAAABAAABEQAAAA=</HashCode>
+      <FileName>Components\Workers\ConnectServerLoader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManClient.Components.Workers.EmptyLoader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Components\Workers\EmptyLoader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManClient.Components.Workers.LocalLoader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAABAAAAAAAAAAAAAAAAAAAABAAAAEQAAAA=</HashCode>
+      <FileName>Components\Workers\LocalLoader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManClient.Components.Workers.MultiplayerLoader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAgAECAAABAAIAAAAAAAAAAAAAAAAABAAAAEQAAAA=</HashCode>
+      <FileName>Components\Workers\MultiplayerLoader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManClient.Controller.Local.PlayerController" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAIAAAACAAAASAAAAACABAAAAAAAABAgA=</HashCode>
+      <FileName>Controller\Local\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.GhostController" Collapsed="true">
+    <Position X="16.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.IndividualAI.Blinky" Collapsed="true">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.IndividualAI.Clyde" Collapsed="true">
+    <Position X="2.75" Y="11" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.IndividualAI.GhostAi" Collapsed="true">
+    <Position X="3.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.IndividualAI.Inky" Collapsed="true">
+    <Position X="5" Y="11" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.IndividualAI.Pinky" Collapsed="true">
+    <Position X="7.25" Y="11" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Controllers.Controller" Collapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Controllers.ControllerDecorator" Collapsed="true">
+    <Position X="37" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Controllers.EmptyController" Collapsed="true">
+    <Position X="39.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Controllers.Network.NetworkController" Collapsed="true">
+    <Position X="36" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Controllers.Network.NetworkGhostController" Collapsed="true">
+    <Position X="38.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Entities.LoadObject" Collapsed="true">
+    <Position X="8.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Entities.PickUp.Crumb" Collapsed="true">
+    <Position X="15" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Entities.PickUp.PickUp" Collapsed="true">
+    <Position X="13.75" Y="7" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Entities.PickUp.PowerUp" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.LevelClasses.NullEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.LevelClasses.Level" Collapsed="true">
+    <Position X="42" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Entities.Player.Ghost" Collapsed="true">
+    <Position X="6" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Entities.Player.MovableObject" Collapsed="true">
+    <Position X="8.25" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Entities.Player.PacMan" Collapsed="true">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Enums.DirectionExtension" Collapsed="true">
+    <Position X="47.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.GameplayBehaviour.DeathBehaviour" Collapsed="true">
+    <Position X="45.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.GameplayBehaviour.PlayBehaviour" Collapsed="true">
+    <Position X="47.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.GameStateManager" Collapsed="true">
+    <Position X="42" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Sprite" Collapsed="true">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.CellFactory" Collapsed="true">
+    <Position X="42" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.CrumbCellCreator" Collapsed="true">
+    <Position X="43.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.PowerUpCellCreator" Collapsed="true">
+    <Position X="49" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.GoodyCellCreator" Collapsed="true">
+    <Position X="43.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.RightDownCellCreator" Collapsed="true">
+    <Position X="43.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.RightUpCellCreator" Collapsed="true">
+    <Position X="45.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.LeftDownCellCreator" Collapsed="true">
+    <Position X="47.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.LeftUpCellCreator" Collapsed="true">
+    <Position X="49" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.HorizontalCellCreator" Collapsed="true">
+    <Position X="45.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.VerticalCellCreator" Collapsed="true">
+    <Position X="43.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Initialization.LevelParser" Collapsed="true">
+    <Position X="43.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.LevelClasses.Cells.Cell" Collapsed="true">
+    <Position X="3.75" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.LevelClasses.Effects.PowerUpEffectEventArgs" Collapsed="true">
+    <Position X="42" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Simulation.GameLoop" Collapsed="true">
+    <Position X="49" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Simulation.SimulationGameTime" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Util.TimeStamps.TimeStampEventArgs" Collapsed="true">
+    <Position X="49" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManShared.Util.TimeStamps.TimeStampManager" Collapsed="true">
+    <Position X="42" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManNetworkShared.ClientNetworkManager" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManNetworkShared.IIncomingMessageHandler" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManNetworkShared.INetworkManager" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManNetworkShared.IOutgoingMessageHandler" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PacManNetworkShared.ServerNetworkManager" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Struct Name="PacManShared.Util.TimeStamps.MovObjStruct" Collapsed="true">
+    <Position X="45.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="PacManShared.Util.TimeStamps.LevelStruct" Collapsed="true">
+    <Position X="43.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="PacManShared.Util.TimeStamps.TimeStamp" Collapsed="true">
+    <Position X="47.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="PacManShared.Util.TimeStamps.Command" Collapsed="true">
+    <Position X="42" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Interface Name="PacManClient.Components.Workers.Loader" Collapsed="true">
+    <Position X="29" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Components\Workers\Loader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PacManShared.Controllers.AI.IGhostStateObserver" Collapsed="true">
+    <Position X="45.5" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="PacManShared.Controllers.Network.INetworkController" Collapsed="true">
+    <Position X="47.25" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="PacManShared.LevelClasses.ICellEffect" Collapsed="true">
+    <Position X="42" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="PacManShared.IGameTime" Collapsed="true">
+    <Position X="43.75" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="PacManClient.Components.ScreenState" Collapsed="true">
+    <Position X="29" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAAAEAAA=</HashCode>
+      <FileName>Components\GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PacManShared.Enums.Direction" Collapsed="true">
+    <Position X="42" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="PacManShared.Enums.EGhostBehaviour" Collapsed="true">
+    <Position X="43.75" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="PacManShared.Enums.GameState" Collapsed="true">
+    <Position X="45.5" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="PacManShared.Enums.MovObjType" Collapsed="true">
+    <Position X="47.25" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Delegate Name="PacManShared.LevelClasses.Effects.PowerUpEffectEvent" Collapsed="true">
+    <Position X="43.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="PacManShared.Simulation.FinishedSimulationEvent" Collapsed="true">
+    <Position X="42" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="PacManShared.Simulation.StartingSimulationEvent" Collapsed="true">
+    <Position X="45.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

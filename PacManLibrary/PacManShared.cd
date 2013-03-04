@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PacManShared.Controllers.AI.GhostController" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwAAAABAAAAAACEACAAggSAAAEAQAAAAEAgAAAAAQA=</HashCode>
+      <FileName>Controllers\AI\AiController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.IndividualAI.Blinky" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAABAAAQAAAAEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Controllers\AI\IndividualAI\Blinky.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.IndividualAI.Clyde" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAQAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Controllers\AI\IndividualAI\Clyde.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.IndividualAI.GhostAi" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAoAAIAAAAAAAAgAAAFgAAQAAAAACAAIAAAACAAAAAA=</HashCode>
+      <FileName>Controllers\AI\IndividualAI\GhostAi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.IndividualAI.Inky" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAQAAAAAAAAAAAACAAAoAAA=</HashCode>
+      <FileName>Controllers\AI\IndividualAI\Inky.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Controllers.AI.IndividualAI.Pinky" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAQAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Controllers\AI\IndividualAI\Pinky.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Controllers.Controller" Collapsed="true">
+    <Position X="3.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAgAEAACAAAAQAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Controllers\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Controllers.ControllerDecorator" Collapsed="true">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ControllerDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Controllers.EmptyController" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAIAAAACIAAAQAAAAECAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\EmptyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Controllers.Network.NetworkController" Collapsed="true">
+    <Position X="5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAAIAAGAAAAQAAgAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Network\NetworkController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Controllers.Network.NetworkGhostController" Collapsed="true">
+    <Position X="7.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwAAAAAAAAAAAIAAGAAAAQAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Network\NetworkGhostController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Entities.LoadObject" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAAAgAgACAAAAAAAAAAAAAAAAAAAAAIAAQ=</HashCode>
+      <FileName>Entities\LoadObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Entities.PickUp.Crumb" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABgAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Entities\PickUp\Crumb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Entities.PickUp.Goody" Collapsed="true">
+    <Position X="14.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABgAAAIAAAAAAACAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PickUp\Goody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Entities.PickUp.PickUp" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAhAgAEAAIABIAACIAABAAAAAAAAAIAAA=</HashCode>
+      <FileName>Entities\PickUp\PickUp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.Entities.PickUp.PowerUp" Collapsed="true">
+    <Position X="16.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAABgAEAAAAAAAAACAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PickUp\PowerUP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.LevelClasses.EmptyPickup" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABgAAAAAAAAAAACAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\PickUp\EmptyPickup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PacManShared.LevelClasses.NullEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAACAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>LevelClasses\Effects\NullEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.LevelClasses.Level" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gASAAsABBAIAhgAAAIAAAAAAAAAAAAAAAAAAAIAAAAQ=</HashCode>
+      <FileName>LevelClasses\Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Entities.Player.Ghost" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACgAAAAgAAASAAAAgEAAAAAACAAAAAAAAIAQQ=</HashCode>
+      <FileName>Entities\Player\Ghost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Entities.Player.MovableObject" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kASAAMAAhAQAhAFEAGAMAgSAAgMAwAAQAEZAAAAIgUA=</HashCode>
+      <FileName>Entities\Player\MovableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Entities.Player.PacMan" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAgAAgBgEAACAAAEgAAAAAAAEAAAAAAABAAAQ=</HashCode>
+      <FileName>Entities\Player\PacMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Enums.DirectionExtension" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAIAAAAAAAAIABAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.GameplayBehaviour.DeathBehaviour" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameplayBehaviour\DeathBehaviour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.GameplayBehaviour.PlayBehaviour" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameplayBehaviour\PlayBehaviour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.GameStateManager" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iQCAAAEAAACAAAAAABABAEAAAAEgAAABAAAgAICAIkg=</HashCode>
+      <FileName>GameStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Sprite" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAggAAAIAAIAAAAAIAAgABAAIAAQAIAAQ=</HashCode>
+      <FileName>Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.CellFactory" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\CellFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.EmptyCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\EmptyCellCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.CrumbCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\PickUpCellCreators.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.PowerUpCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\PickUpCellCreators.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.GoodyCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\PickUpCellCreators.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.TeleportCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\TeleportCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.RightDownCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\WallCellCretors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.RightUpCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\WallCellCretors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.LeftDownCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\WallCellCretors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.LeftUpCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\WallCellCretors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.HorizontalCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\WallCellCretors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.CellFactory.Creators.VerticalCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\Creators\WallCellCretors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.ControllFactory" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Initialization\ControllerFactory\ControllFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Initialization.LevelParser" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Initialization\LevelParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Initialization.EffectFactories.Creators.NullEffectCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\EffectFactories\Creators\NullEffectCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.EffectFactories.Creators.PowerUpCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\EffectFactories\Creators\PickUpEffectsCreators.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.EffectFactories.Creators.GoodyCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\EffectFactories\Creators\PickUpEffectsCreators.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.EffectFactories.Creators.CrumbCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\EffectFactories\Creators\PickUpEffectsCreators.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Initialization.EffectFactories.Creators.TeleportEffectCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAIAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\EffectFactories\Creators\TeleportEffectCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.LevelClasses.Cells.Cell" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAhgAgAAIAAAAAAAIAgAAAAIAAAQQIIMU=</HashCode>
+      <FileName>LevelClasses\Cells\Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.LevelClasses.Effects.PowerUpEffectEventArgs" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelClasses\Effects\PowerUpEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.LevelClasses.Effects.TeleportEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAAAAIAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelClasses\Effects\TeleportEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Simulation.GameLoop" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQUAAAAAQAAAAAGIAGAwAAAAAAAACCAAAAgACAYAAg=</HashCode>
+      <FileName>Simulation\GameLoop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Simulation.SimulationGameTime" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAEAAAAAAACAAAAAQAAAAEAAAgAAAAIAAQAA=</HashCode>
+      <FileName>Simulation\SimulationGameTime.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManShared.Util.TimeStamps.TimeStampEventArgs" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\TimeStamps\TimeStampEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManShared.Util.TimeStamps.TimeStampManager" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEEAAAAAEAAAAAAAAAAIAAACAAAAEABAQAAACCAA=</HashCode>
+      <FileName>Util\TimeStamps\TimeStampManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PacManShared.Util.TimeStamps.MovObjStruct" Collapsed="true">
+    <Position X="22.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAoAAAAAAAAAAAAAAACAAAAEBAAAAAAAA=</HashCode>
+      <FileName>Util\TimeStamps\NetworkStructures.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PacManShared.Util.TimeStamps.LevelStruct" Collapsed="true">
+    <Position X="21" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\TimeStamps\NetworkStructures.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PacManShared.Util.TimeStamps.TimeStamp" Collapsed="true">
+    <Position X="24.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAIAAAAA=</HashCode>
+      <FileName>Util\TimeStamps\NetworkStructures.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PacManShared.Util.TimeStamps.Command" Collapsed="true">
+    <Position X="19.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\TimeStamps\NetworkStructures.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="PacManShared.Controllers.AI.IGhostStateObserver" Collapsed="true">
+    <Position X="28" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AI\IGhostStateObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PacManShared.Controllers.Network.INetworkController" Collapsed="true">
+    <Position X="19.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Network\INetworkController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PacManShared.LevelClasses.ICellEffect" Collapsed="true">
+    <Position X="21" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelClasses\Effects\ICellEffect.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PacManShared.GameplayBehaviour.IGamePlayBehaviour" Collapsed="true">
+    <Position X="24.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameplayBehaviour\IGamePlayBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PacManShared.IGameTime" Collapsed="true">
+    <Position X="26.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>IGameTime.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PacManShared.Initialization.CellFactory.ICellCreator" Collapsed="true">
+    <Position X="19.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\CellFactory\ICellCreator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PacManShared.Initialization.EffectFactories.Creators.IEffectCreator" Collapsed="true">
+    <Position X="22.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initialization\EffectFactories\Creators\IEffectCreator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="PacManShared.Enums.Direction" Collapsed="true">
+    <Position X="19.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAEAAAI=</HashCode>
+      <FileName>Enums\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PacManShared.Enums.EGhostBehaviour" Collapsed="true">
+    <Position X="21" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAIAgAA=</HashCode>
+      <FileName>Enums\EGhostBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PacManShared.Enums.GameState" Collapsed="true">
+    <Position X="22.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAEAAAAAAAAAAAAIAIAAAAAgAgAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PacManShared.Enums.MovObjType" Collapsed="true">
+    <Position X="24.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAgAAAIAAAAAAAAAIAAAAAAAAABACAAAAQAIAAAAA=</HashCode>
+      <FileName>Enums\MovObjType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PacManShared.Simulation.SimulationState" Collapsed="true">
+    <Position X="26.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Simulation\GameLoop.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="PacManShared.LevelClasses.Effects.PowerUpEffectEvent" Collapsed="true">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelClasses\Effects\PowerUpEffect.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="PacManShared.Simulation.FinishedSimulationEvent" Collapsed="true">
+    <Position X="19.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Simulation\GameLoop.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="PacManShared.Simulation.StartingSimulationEvent" Collapsed="true">
+    <Position X="22.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Simulation\GameLoop.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

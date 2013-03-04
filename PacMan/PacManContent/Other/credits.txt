@@ -1,0 +1,20 @@
+Main Programmer - Patrick Joos
+Network Programming - Stefan Zahnd
+Additional Programming - Patrick Ravi-Pinto
+
+Art 
+Patrick Ravi-Pinto
+Patrick Joos
+
+Server
+Stefan Zahnd
+
+Created with:
+XNA 4.0
+Lindgren Library
+
+Music:
+Original Pacman sounds
+Some stuff from youtube
+
+Properties belong to their respective owners

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e954e1a4-717f-4f11-bcf4-b58b3e05b796"
+  name="ModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <activity
+        Id="166a4fd6-e53a-4cb1-8ef4-b036e6ce73f4"
+        name="Activity"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="77e9c8b1-16c2-46df-8172-2eaafecec261"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="76219f06-213c-411f-ba5c-a7f7d7bac327"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e1bd46b8-eb79-4add-96b7-3fb16e29d578"
+                  LastKnownName="Update"
+                  LastKnownLocation="ModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <objectNode
+            Id="e04df9e7-f3f9-4be6-a80b-cc463bf09efa"
+            name="Server"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <objectFlowTargets>
+              <objectFlow
+                Id="cdbc4cb7-14bf-4dc3-8d36-00c5bd3cb944"
+                isLeaf="false"
+                isMulticast="false"
+                isMultireceive="false">
+                <decisionNodeMoniker
+                  Id="96038dd1-9687-4301-a7fa-8759b7c0c2fe"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject.uml" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger
+                Id="0ddd17f2-1ac6-4cda-b9ee-e2ec34e32868"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <decisionNode
+            Id="96038dd1-9687-4301-a7fa-8759b7c0c2fe"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d2e55c1d-adf8-419b-8ef8-bf99b4f6f16a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="8356c964-22a5-426b-8c80-1e4758cdc241"
+                  LastKnownName="Action1"
+                  LastKnownLocation="ModelingProject.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="0b1a03d8-4aec-4579-ac29-9f45cedab5d9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="beda46a3-7fe1-4ae9-b040-91078c34ff1c"
+                  LastKnownName="Action2"
+                  LastKnownLocation="ModelingProject.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="8356c964-22a5-426b-8c80-1e4758cdc241"
+            name="Action1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="beda46a3-7fe1-4ae9-b040-91078c34ff1c"
+            name="Action2"
+            isLeaf="false" />
+          <activityFinalNode
+            Id="4371fa36-3d94-488a-8b67-e1202060b99e"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="e1bd46b8-eb79-4add-96b7-3fb16e29d578"
+            name="Update"
+            isLeaf="false">
+            <objectFlowTargets>
+              <objectFlow
+                Id="8c2e8591-3a3b-40c2-973d-7b52003b005b"
+                isLeaf="false"
+                isMulticast="false"
+                isMultireceive="false">
+                <objectNodeMoniker
+                  Id="e04df9e7-f3f9-4be6-a80b-cc463bf09efa"
+                  LastKnownName="Server"
+                  LastKnownLocation="ModelingProject.uml" />
+              </objectFlow>
+            </objectFlowTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0e9dc12b-2221-4049-b13b-ff2c932ff645"
+        LastKnownName="PacManClient"
+        LastKnownLocation="Package_1930.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="dada3dad-cb3c-4bfa-9aa6-58c406c01e6a"
+        LastKnownName="PacManShared"
+        LastKnownLocation="Package_1931.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2d0ed9f9-07db-462e-8855-03a4ff5a778c"
+        LastKnownName="PacManServer"
+        LastKnownLocation="Package_1932.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2c78a38c-de9a-43a3-8c8f-da0798c4b11e"
+        LastKnownName="PacManContent"
+        LastKnownLocation="Package1_1932.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="26992242-0a01-4c14-80a5-1a09d01e4b4b"
+        LastKnownName="PacManNetworkShared"
+        LastKnownLocation="Package_1933.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="5ac8fd0e-1f1d-4e74-afe9-7acef9694d07"
+        LastKnownName="PacManImporter"
+        LastKnownLocation="Package_1934.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

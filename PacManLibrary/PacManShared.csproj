@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{E072D649-2896-47BD-93EA-F59072C997F8}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PacManShared</RootNamespace>
+    <AssemblyName>PacManLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>4fa2a999-bef4-4cc1-8796-e9a25489e205</XnaCrossPlatformGroupID>
+    <XnaOutputType>Library</XnaOutputType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lidgren.Network">
+      <HintPath>..\PacMan\PacMan\lib\Lidgren.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="Lidgren.Network.Xna">
+      <HintPath>..\PacMan\PacMan\lib\Lidgren.Network.Xna.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AI\AiController.cs" />
+    <Compile Include="Controllers\AI\IGhostStateObserver.cs" />
+    <Compile Include="Controllers\AI\IndividualAI\Blinky.cs" />
+    <Compile Include="Controllers\AI\IndividualAI\Clyde.cs" />
+    <Compile Include="Controllers\AI\IndividualAI\GhostAi.cs" />
+    <Compile Include="Controllers\AI\IndividualAI\Inky.cs" />
+    <Compile Include="Controllers\AI\IndividualAI\Pinky.cs" />
+    <Compile Include="Controllers\ControllerDecorator.cs" />
+    <Compile Include="Controllers\EmptyController.cs" />
+    <Compile Include="Controllers\History\HistoryController.cs" />
+    <Compile Include="Controllers\Network\INetworkController.cs" />
+    <Compile Include="Controllers\Network\NetworkController.cs" />
+    <Compile Include="Controllers\Network\NetworkGhostController.cs" />
+    <Compile Include="Enums\MovObjType.cs" />
+    <Compile Include="IGameTime.cs" />
+    <Compile Include="Initialization\CellFactory\CellFactory.cs" />
+    <Compile Include="Initialization\CellFactory\Creators\EmptyCellCreator.cs" />
+    <Compile Include="Initialization\CellFactory\Creators\PickUpCellCreators.cs" />
+    <Compile Include="Initialization\CellFactory\Creators\TeleportCreator.cs" />
+    <Compile Include="Initialization\CellFactory\Creators\WallCellCretors.cs" />
+    <Compile Include="Initialization\CellFactory\ICellCreator.cs" />
+    <Compile Include="Initialization\ControllerFactory\ControllFactory.cs" />
+    <Compile Include="Enums\EGhostBehaviour.cs" />
+    <Compile Include="GameplayBehaviour\DeathBehaviour.cs" />
+    <Compile Include="GameStateManager.cs" />
+    <Compile Include="GameplayBehaviour\IGamePlayBehaviour.cs" />
+    <Compile Include="GameplayBehaviour\PlayBehaviour.cs" />
+    <Compile Include="Initialization\EffectFactories\Creators\PickUpEffectsCreators.cs" />
+    <Compile Include="Initialization\LevelParser.cs" />
+    <Compile Include="Simulation\GameLoop.cs" />
+    <Compile Include="Simulation\SimulationGameTime.cs" />
+    <Compile Include="Util\TimeStamps\NetworkStructures.cs" />
+    <Compile Include="Entities\LoadObject.cs" />
+    <Compile Include="Entities\PickUp\Crumb.cs" />
+    <Compile Include="Entities\PickUp\EmptyPickup.cs" />
+    <Compile Include="Entities\PickUp\Goody.cs" />
+    <Compile Include="Entities\PickUp\PickUp.cs" />
+    <Compile Include="Entities\PickUp\PowerUP.cs" />
+    <Compile Include="Entities\Player\Ghost.cs" />
+    <Compile Include="Entities\Player\MovableObject.cs" />
+    <Compile Include="Entities\Player\PacMan.cs" />
+    <Compile Include="Enums\Direction.cs" />
+    <Compile Include="Enums\GameState.cs" />
+    <Compile Include="Controllers\Controller.cs" />
+    <Compile Include="LevelClasses\Cells\Cell.cs" />
+    <Compile Include="LevelClasses\Effects\ICellEffect.cs" />
+    <Compile Include="LevelClasses\Effects\PowerUpEffect.cs" />
+    <Compile Include="Initialization\EffectFactories\Creators\NullEffectCreator.cs" />
+    <Compile Include="Initialization\EffectFactories\Creators\TeleportEffectCreator.cs" />
+    <Compile Include="LevelClasses\Effects\TeleportEffect.cs" />
+    <Compile Include="Initialization\EffectFactories\Creators\IEffectCreator.cs" />
+    <Compile Include="LevelClasses\Level.cs" />
+    <Compile Include="LevelClasses\Effects\NullEffect.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sprite.cs" />
+    <Compile Include="Util\TimeStamps\TimeStampEventArgs.cs" />
+    <Compile Include="Util\TimeStamps\TimeStampManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PacManNetworkShared\PacManNetworkShared.csproj">
+      <Project>{68AE4438-4308-4D07-8AAD-4AB02CA0866C}</Project>
+      <Name>PacManNetworkShared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PacManShared.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>
